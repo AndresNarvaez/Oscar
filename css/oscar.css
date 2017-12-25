@@ -52,3 +52,64 @@
 
 
 }
+.titulob{
+	margin-left: 50px;
+	color:#145372;
+	font-family: "Arial";
+	font-size: 33px;
+}
+.texto1{
+	margin-left: 50px;
+	color:#145372;
+	font-family: "Arial";
+}
+
+button{
+	font-family: "Arial";
+	font-size: 14px;
+}
+
+.boton1{
+	background-color:#145372;
+	color: white;
+	border-radius:100px;
+	height: 200px;
+	position: relative;
+    right: -300px;
+    top: 100px;
+    cursor: pointer;
+    z-index: 3;
+}
+.boton2{
+	background-color:#145372;
+	color: white;
+	border-radius:100px;
+	height: 200px; 
+	position: relative;
+    right: -290px;
+    top: 370px;
+    cursor: pointer;
+    z-index: 3;
+}
+.boton3{
+	background-color:#145372;
+	color: white;
+	border-radius:100px; 
+	height: 190px;
+	position: relative;
+    right: -200px;
+    top: 600px;
+    cursor: pointer;
+    z-index: 3;
+
+}
+
+.mapa img{
+
+	display: block;
+    position: relative;
+    right: -500px;
+    width: 600px;
+    top: -100px;
+    height: 700px;
+}
