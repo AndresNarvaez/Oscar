@@ -4,14 +4,33 @@
  	color:white;
  }
 
+ .circulo{
+ 	width: 200px;
+ 	height: 200px;
+ 	border-radius: 100px;
+ 	display: block;
+ 	position: absolute;
+ 	top: 250px;
+ 	right: 230px;
+ 	background-color: #145372;
+ 	font-size: 20px;
+ 	color: white;
+ 	opacity: 0.5;
+ 	cursor: pointer;
+ 	border: none;
+
+ }
+
  .Cuadrado {
     width: 517px;
     height: 80px;
-    background: #145372;
+    border-bottom-left-radius: 50px;
+    background: linear-gradient(to left,#145372, grey);
     display: block;
     position: relative;
     right: -700px;
     bottom:594px;
+    opacity: 0.5;
 }
  .menu {
  	display: inline-block;
@@ -40,6 +59,7 @@
 	margin-left: 700px;	
 	margin-bottom: 0px;
 	font-family: "Arial";
+
 	
 }
 
@@ -113,3 +133,55 @@ button{
     top: -100px;
     height: 700px;
 }
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #145372;
+	color: white;
+	font-family: "Arial";
+}
+
+.logo img {
+	width: 160px;
+	position: relative;
+	right: -100px;
+	opacity: 0.5;
+
+}
+.logo a{
+	text-decoration: none;
+	color: white;
+	display: flex;
+	padding-left: 100px;
+}
+.logo strong{
+	display: block;
+	margin-right: 20px;
+}
+.col1{
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	padding-left: 300px;
+
+}
+.col1 label{
+	margin-top: 20px;
+}
+.col2{
+	display: flex;
+	flex-direction: column;
+	padding-right: 100px;
+	padding-top: 20px;
+}
+.col2 input{
+	border-radius: 5px;
+	width: 70px;
+	margin-top: 5px;
+
+}
+#comentarios{
+	margin-top: 20px;
+
