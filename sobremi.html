@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sobre Mi</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/sobremi.css">
+
+</head>
+<body>
+	<header>
+		<section id="portada">
+		<nav class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html">Expediciones</a></li>
+				<li><a href="sobremi.html">Sobre mí</a></li>
+				<li><a href="#footer1">Contactos</a></li>
+			</ul>
+		</nav>
+		<div class="texto">
+		<h1>OSCAR ANDRES TREJO NARVAEZ</h1>
+				<h4>Escalador y viajero, sirvió 11 años a la Defensa Civil Colombiana,
+					actualmente recorre Sur América buscando y documentando los heroes
+					que han arriesgado su vida por salvar la de los demas.	
+		</div>	
+		</section>
+	</header>
+
+		<footer class="footer" id="footer1">
+				<div class="contenedor">
+					<div class="logo">
+						<img src="imagenes/logoandres.png">	
+						<a href="tel: +573126590014"><strong>Telefono:</strong><span> 3126590014</span> </a>
+						<a href="mailto:nrzandres@gmail.com"><strong>E-mail:</strong><span>nrzandres@gmail.com</span> </a> <!-- email -->
+					</div>
+				</div>
+				<div class="col1">
+					<label for="nombre"  >Nombre</label>
+					<input type="text" name="nombre" required id="nombre" />
+					<label for="email">E-mail</label>
+					<input type="email" required id="email" name="email" />
+					<label>Selecciona tu país:</label>
+					<input type="text" class="paises" name="pais" id="pais" list="paises"/>
+					<datalist id="paises">
+					<option value="España" />
+					<option value="México" />
+					<option value="Argentina" />
+					<option value="Perú" />
+					<option value="Colombia" />
+					<option value="Otro país" /> 
+					</datalist>	
+				</div>
+				<div class="col2">
+					<label for="comentarios">Comentarios</label>
+						<textarea name="" id="comentarios" cols="30" rows="10"></textarea>
+					<input type="submit" value="Enviar">
+				</div>
+		</footer>
+</body>
+
+</html>
